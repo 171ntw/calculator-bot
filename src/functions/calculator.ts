@@ -127,7 +127,6 @@ export async function Calculator(interaction: CommandInteraction, client: Client
                 }[value]!;
             }
 
-            // Atualiza o display e o campo de expiração
             const updatedEmbed = new EmbedBuilder()
                 .setTitle('Calculadora')
                 .setColor('#000000')
